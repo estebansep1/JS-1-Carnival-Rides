@@ -32,7 +32,7 @@ if (greenWireConnected && redWireConnected && waterIsOn && !yellowWireConnected 
 //Ride 4 has power when:
     //ride wire is connected
 ride4PowerOn = false
-if (ride4PowerOn) {
+if (redWireConnected) {
     ride4PowerOn = true
 }
 
